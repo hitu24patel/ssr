@@ -8,9 +8,9 @@ export async function generateMetadata(props: { params: { locale: string } }) {
     namespace: 'About',
   });
 
-  return {
-    title: "This is lodo",
-    description: "This is lodo na pikki",
+ return {
+    title: t('meta_title'),
+    description: t('meta_description'),
   };
 }
 
